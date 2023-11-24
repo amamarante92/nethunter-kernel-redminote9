@@ -1,4 +1,4 @@
-#Kali Nethunter Kernel for Xiaomi Redmi Note 9
+# Kali Nethunter Kernel for Xiaomi Redmi Note 9
 
 Modified from Arafattex's kernel [source](https://github.com/Shas45558/shas-dream-oc-mt6768-a11). I just cloned the original source and modified configurations to match Nethunter's hardware requirements.
 
