@@ -21,7 +21,7 @@ I am not responsible for any damage you may cause to yourself or to others by mi
 
 1. Flash stock rom version V12.5.1.0.RJOMIXM (never tested other versions) from fastboot (bootloader need to be unlocked, be careful to not lock it again when flashing).
 
-2. Flash vbmeta_vd171--V12.5.1.0.RJOMIXM.img to vbmeta partition (whitout it, the device will enter a bootloop).
+2. Flash vbmeta_vd171--V12.5.1.0.RJOMIXM.img to vbmeta partition (without it, the device will enter a bootloop).
 
 3. Flash OrangeFox-Unofficial-merlinx.img to recovery partition.
 
