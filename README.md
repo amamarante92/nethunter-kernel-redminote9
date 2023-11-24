@@ -1,31 +1,48 @@
-# shas-dream-oc-mt6768
+#Kali Nethunter Kernel for Xiaomi Redmi Note 9
 
-Hi build your own kernel from my source..
+Modified from Arafattex's kernel [source](https://github.com/Shas45558/shas-dream-oc-mt6768-a11). I just cloned the original source and modified configurations to match Nethunter's hardware requirements.
 
-# what is needed:
+To modify kernel configurations, go to kali-nethunter-kernel folder and run ./build.sh, select option "Configure and compile Kernel from scratch"
 
-1.pc with ubuntu install
+#Disclamer
 
-2.some knowledge about build
+I am not responsible for any damage you may cause to yourself or to others by misusing the sofware provided here. Stay inside legal limits and test only on your systems or otherwise authorized by the system owner.
 
+# How to build:
+1. Clone or download code.
 
-# How it workes:
-1.Clone or download my coad.
+2. Go to [this link](https://github.com/kdrag0n/proton-clang.git) ,clone or download and put all files in /clang-13/aaa (create this folder inside the root folder).
 
-2.Extract if you download.
+3. Then run ./merlinp.sh to build kernel for Redmi Note 9. 
 
-3.Make your pc envairnment to build kernel (Help from google).
+4. Go AnyKernel3-master to get your zip file.
 
-4.go to https://github.com/kdrag0n/proton-clang.git clone or download put all file in /clang-13/aaa 
+# How to install
 
-5.Then run ./lancelotp.sh or merlinp.sh to build kernel for specific devices. 
+1. Flash stock rom version V12.5.1.0.RJOMIXM (never tested other versions) from fastboot (bootloader need to be unlocked, be careful to not lock it again when flashing).
 
-6. Go AnyKernel3-master to get your zip file.
+2. Flash vbmeta_vd171--V12.5.1.0.RJOMIXM.img to vbmeta partition (whitout it, the device will enter a bootloop).
 
-7.Flash it from recovery.
+3. Flash OrangeFox-Unofficial-merlinx.img to recovery partition.
 
-8.Enjoy.
+4. Put the zip you compiled in an external SD Card.
 
-# Download latest version and discuss join...
+5. Reboot to recovery
 
-https://t.me/ocmt6768
+6. Use Orage Fox Recovery to install the kernel's zip.
+
+7. Install Magisk APK
+
+8. Use Orange Fox to flash the magisk patched image, this will install root on the device.
+
+9. Boot to system and use Magisk Manager to install Kali Nethunter and wifi firmwares.
+
+All files mentioned here are provided in the important files folder.
+
+#Aditional credits:
+
+[Orange Fox Recovery](https://xdaforums.com/t/unofficial-recovery-orangefox-recovery-project-r-vendor-a11_a12_a13-merlinx.4600431/)
+[Patched vbmeta image](https://xdaforums.com/t/vbmeta-img-patched-vbmeta-image-partition-disabled-verity-disabled-verification-for-merlin-xiaomi-redmi-10x-4g-xiaomi-redmi-note-9.4221075/)
+[Magisk APK](https://github.com/topjohnwu/Magisk/releases/tag/v26.4)
+[Tested Stock Rom](https://mifirm.net/download/5582#google_vignette)
+[Building Nethunter](https://www.kali.org/docs/nethunter/building-nethunter/)
