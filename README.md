@@ -39,10 +39,10 @@ I am not responsible for any damage you may cause to yourself or to others by mi
 
 All files mentioned here are provided in the important files folder.
 
-#Aditional credits:
+# Aditional credits:
 
-[Orange Fox Recovery](https://xdaforums.com/t/unofficial-recovery-orangefox-recovery-project-r-vendor-a11_a12_a13-merlinx.4600431/)
-[Patched vbmeta image](https://xdaforums.com/t/vbmeta-img-patched-vbmeta-image-partition-disabled-verity-disabled-verification-for-merlin-xiaomi-redmi-10x-4g-xiaomi-redmi-note-9.4221075/)
-[Magisk APK](https://github.com/topjohnwu/Magisk/releases/tag/v26.4)
-[Tested Stock Rom](https://mifirm.net/download/5582#google_vignette)
-[Building Nethunter](https://www.kali.org/docs/nethunter/building-nethunter/)
+1. [Orange Fox Recovery](https://xdaforums.com/t/unofficial-recovery-orangefox-recovery-project-r-vendor-a11_a12_a13-merlinx.4600431/)
+2. [Patched vbmeta image](https://xdaforums.com/t/vbmeta-img-patched-vbmeta-image-partition-disabled-verity-disabled-verification-for-merlin-xiaomi-redmi-10x-4g-xiaomi-redmi-note-9.4221075/)
+3. [Magisk APK](https://github.com/topjohnwu/Magisk/releases/tag/v26.4)
+4. [Tested Stock Rom](https://mifirm.net/download/5582#google_vignette)
+5. [Building Nethunter](https://www.kali.org/docs/nethunter/building-nethunter/)
