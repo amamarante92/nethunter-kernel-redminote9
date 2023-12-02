@@ -4,7 +4,7 @@ Modified from Arafattex's kernel [source](https://github.com/Shas45558/shas-drea
 
 To modify kernel configurations, go to kali-nethunter-kernel folder and run ./build.sh, select option "Configure and compile Kernel from scratch"
 
-#Disclamer
+# Disclamer
 
 I am not responsible for any damage you may cause to yourself or to others by misusing the sofware provided here. Stay inside legal limits and test only on your systems or otherwise authorized by the system owner.
 
